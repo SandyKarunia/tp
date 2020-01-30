@@ -1,0 +1,39 @@
+{
+  "name": "tp",
+  "version": "1.0.0",
+  "description": "Teleport / warp / switch / move between folders with ease",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SandyKarunia/tp.git"
+  },
+  "keywords": [
+    "teleport",
+    "tp",
+    "warp",
+    "wrp",
+    "switch",
+    "swtch",
+    "move",
+    "mv",
+    "cd",
+    "cli",
+    "dir",
+    "folder"
+  ],
+  "author": "Sandy Karunia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SandyKarunia/tp/issues"
+  },
+  "homepage": "https://github.com/SandyKarunia/tp#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
