@@ -1,6 +1,6 @@
 {
-  "name": "tp",
-  "version": "1.0.0",
+  "name": "@sandykarunia/tp",
+  "version": "0.0.1",
   "description": "Teleport / warp / switch / move between folders with ease",
   "main": "index.js",
   "scripts": {

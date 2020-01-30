@@ -79,8 +79,6 @@ const run = async () => {
           printHelp();
       }
 
-      // get the next arg as parameter to the command
-      const param = args[i + 1];
       return;
     }
   }
