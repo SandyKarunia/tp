@@ -1,8 +1,11 @@
 {
   "name": "@sandykarunia/tp",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Teleport / warp / switch / move between folders with ease",
-  "main": "index.js",
+  "bin": {
+    "tp": "./index.js"
+  },
+  "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

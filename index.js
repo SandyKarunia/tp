@@ -84,12 +84,18 @@ const run = async () => {
   }
 
   // no command starting with --, get the last one and look up the config file
-  const config = configLib.readConfig();
+  const config = await configLib.readConfig();
   const target = args[args.length - 1];
   if (config.hasOwnProperty(target)) {
     const targetPath = config[target];
     // move to the target path
     process.chdir(targetPath);
+    return;
+  }
+
+  // if the target is equals to file location, (most likely) there is no parameter (e.g. run the command with just "tp")
+  if (target === __filename) {
+    printHelp();
     return;
   }
 
